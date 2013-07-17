@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crossfit Cityline</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Base scripts -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/modernizr-latest.js"></script>
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/flexslider.css" />
+
+	<!-- Fonts -->
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+	<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+	<!-- IE -->
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="css/ie.css" />
+	<![endif]-->
+	<!--[if lt IE 10]>
+		<script type="text/javascript" src="js/PIE.js"></script>
+	<![endif]-->
+
+</head>
+<body class="home">
+
+	<div class="wrapper">
+
+		<section class="blog">
+
+			<div class="container">
+			
+				<h2 class="hero">Our Blog</h2>
+				<p class="sub-hero">Read our latest thoughts on our always interesting blog.</p>
+		
+				<div class="blog-controls clearfix">
+
+					<ul id="blog-filters" class="inline nmp none pull-left">
+						<li><a href="#" data-filter="">all</a></li>
+						<li><a href="#" data-filter=".news">news</a></li>
+						<li><a href="#" data-filter=".announcements">announcements</a></li>
+						<li><a href="#" data-filter=".miscellaneous">miscellaneous</a></li>
+					</ul>
+
+					<div class="pull-right hidden-phone">
+
+						<span>Columns:</span>
+						<select id="blog-selector">
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+						</select>
+
+					</div> <!-- /.pull-right -->
+
+				</div> <!-- /.blog-controls --> 
+
+				<div id="blog" data-columns="3">
+    
+			        <article class="blog-item news">
+			            <a href="blog/blog-single.html" class="blog-ajax" data-title="First blog item" data-subtitle="Here is the caption for the first blog item">
+			            	<img src="images/blog1.jpg" alt="Blog Item" />
+			            </a>
+			            <div class="content">
+				            <h4>An interesting blog title</h4>
+				            <div class="meta">
+				            	<p>Posted on the <span class="date">14th April 2013</span> by <a href="#">admin</a></p>
+				            </div> <!-- /.meta -->
+				            <p>Curabitur non gravida lectus. Curabitur odio justo, faucibus in imperdiet at, convallis eget urna. Vestibulum accumsan libero ut nibh malesuada cursus eget non leo. Vestibulum vestibulum egestas tortor at aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+				            <a href="blog/blog-single.html" class="button small blog-ajax" data-title="First blog item" data-subtitle="Here is the caption for the first blog item">Read more..</a>  
+			            </div>
+			        </article>
+
+			        <article class="blog-item miscellaneous">
+			            <a href="blog/blog-single.html" class="blog-ajax" data-title="Second blog item" data-subtitle="Here is the caption for the second blog item">
+			            	<img src="images/blog2.jpg" alt="Blog Item" />
+			            </a>
+			            <div class="content">
+				            <h4>An interesting blog title</h4>
+				            <div class="meta">
+				            	<p>Posted on the <span class="date">14th April 2013</span> by <a href="#">admin</a></p>
+				            </div> <!-- /.meta -->
+				            <p>Curabitur non gravida lectus. Curabitur odio justo, faucibus in imperdiet at, convallis eget urna. Vestibulum accumsan libero ut nibh malesuada cursus eget non leo. Vestibulum vestibulum egestas tortor at aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+				            <a href="blog/blog-single.html" class="button small blog-ajax" data-title="Second blog item" data-subtitle="Here is the caption for the second blog item">Read more..</a>  
+			            </div>
+			        </article>
+
+			        <article class="blog-item announcements">
+			            <a href="blog/blog-single.html" class="blog-ajax" data-title="Third blog item" data-subtitle="Here is the caption for the third blog item">
+			            	<img src="images/blog3.jpg" alt="Blog Item" />
+			            </a>
+			            <div class="content">
+				            <h4>An interesting blog title</h4>
+			            <div class="meta">
+				            	<p>Posted on the <span class="date">14th April 2013</span> by <a href="#">admin</a></p>
+			            </div> <!-- /.meta -->
+				            <p>Curabitur non gravida lectus. Curabitur odio justo, faucibus in imperdiet at, convallis eget urna. Vestibulum accumsan libero ut nibh malesuada cursus eget non leo. Vestibulum vestibulum egestas tortor at aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+				            <a href="blog/blog-single.html" class="button small blog-ajax" data-title="Third blog item" data-subtitle="Here is the caption for the third blog item">Read more..</a>            
+			            </div>
+			        </article>
+
+			        <article class="blog-item news">
+			            <a href="blog/blog-single.html" class="blog-ajax" data-title="Fourth blog item" data-subtitle="Here is the caption for the fourth blog item">
+			            	<img src="images/blog4.jpg" alt="Blog Item" />
+			            </a>
+			            <div class="content">
+				            <h4>An interesting blog title</h4>
+				            <div class="meta">
+				            	<p>Posted on the <span class="date">14th April 2013</span> by <a href="#">admin</a></p>
+				            </div> <!-- /.meta -->
+				            <p>Curabitur non gravida lectus. Curabitur odio justo, faucibus in imperdiet at, convallis eget urna. Vestibulum accumsan libero ut nibh malesuada cursus eget non leo. Vestibulum vestibulum egestas tortor at aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+				            <a href="blog/blog-single.html" class="button small blog-ajax" data-title="Fourth blog item" data-subtitle="Here is the caption for the fourth blog item">Read more..</a>  
+			            </div>
+			        </article>
+
+			        <article class="blog-item miscellaneous">
+			            <a href="blog/blog-single.html" class="blog-ajax" data-title="Fifth blog item" data-subtitle="Here is the caption for the fifth blog item">
+			            	<img src="images/blog5.jpg" alt="Blog Item" />
+			            </a>
+			            <div class="content">
+				            <h4>An interesting blog title</h4>
+			            	<div class="meta">
+				            	<p>Posted on the <span class="date">14th April 2013</span> by <a href="#">admin</a></p>
+			            	</div> <!-- /.meta -->
+				            <p>Curabitur non gravida lectus. Curabitur odio justo, faucibus in imperdiet at, convallis eget urna. Vestibulum accumsan libero ut nibh malesuada cursus eget non leo. Vestibulum vestibulum egestas tortor at aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+				            <a href="blog/blog-single.html" class="button small blog-ajax" data-title="Fifth blog item" data-subtitle="Here is the caption for the fifth blog item">Read more..</a>  
+			            </div>
+			        </article>
+
+			        <article class="blog-item announcements">
+			            <a href="blog/blog-single.html" class="blog-ajax" data-title="Sixth blog item" data-subtitle="Here is the caption for the sixth blog item">
+			            	<img src="images/blog1.jpg" alt="Blog Item" />
+			            </a>
+			            <div class="content">
+				            <h4>An interesting blog title</h4>
+				            <div class="meta">
+				            	<p>Posted on the <span class="date">14th April 2013</span> by <a href="#">admin</a></p>
+				            </div> <!-- /.meta -->
+				            <p>Curabitur non gravida lectus. Curabitur odio justo, faucibus in imperdiet at, convallis eget urna. Vestibulum accumsan libero ut nibh malesuada cursus eget non leo. Vestibulum vestibulum egestas tortor at aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+				            <a href="blog/blog-single.html" class="button small blog-ajax" data-title="Sixth blog item" data-subtitle="Here is the caption for the sixth blog item">Read more..</a>  
+			            </div>
+			        </article>
+
+			    </div> <!-- /#blog -->
+			   
+			</div> <!-- /.container -->
+
+		</section> <!-- /.blog -->
+
+		<section class="blog-single">
+			
+			<a class="blog-back">Close</a>
+			<div class="container">
+
+				<a class="blog-next">Next<i class="icon-arrow-right"></i></a>
+				<a class="blog-prev"><i class="icon-arrow-left"></i>Previous</a>
+
+				<h2 class="blog-title hero"></h2>
+				<p class="sub-hero blog-subtitle"></p>
+
+				<div class="basket"></div> <!-- /.basket -->
+
+			</div> <!-- /.container -->
+
+		</section> <!-- /.blog-single-->
+		
+	</div> <!-- /.wrapper -->	
+
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" src="js/jquery.debouncedresize.js"></script>
+	<script type="text/javascript" src="js/jquery.actual.js"></script>
+	<script type="text/javascript" src="js/retina.js"></script>
+	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<script type="text/javascript" src="js/portfolio.js"></script>
+	<script type="text/javascript" src="js/blog.js"></script>
+	<script type="text/javascript" src="js/form.js"></script>
+	<script type="text/javascript">
+
+		jQuery(document).ready(function($) {
+
+
+		});
+
+	</script>
+
+</body>
+</html>
