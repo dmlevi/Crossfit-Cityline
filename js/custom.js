@@ -10,11 +10,6 @@ jQuery(document).ready(function($) {
 	/*----------- Add clearfix to floated li elements -----------*/
 	$('ul.inline').addClass('clearfix');
 
-	/*----------- Icon Lists -----------*/
-	$('ul.fancy-list').each(function() {
-		icon = $(this).data('icon');
-		$(this).children('li').prepend('<i class="icon ' + icon + '"></i>'); 
-	})
 
 	/*----------- Floating Navigation -----------*/
 	function floatingNav() {
@@ -156,7 +151,7 @@ jQuery(document).ready(function($) {
 		$position = $($target).offset().top - $padding;
 		$('html, body').animate({
 			scrollTop: $position
-		}, 1000, 'easeInQuart');
+		}, 500, 'easeInQuart');
 	});
 
 	/*----------- Mobile Navigation -----------*/
@@ -168,20 +163,20 @@ jQuery(document).ready(function($) {
 		$position = $($target).offset().top - $padding;
 		$('html, body').animate({
 			scrollTop: $position
-		}, 1000, 'easeInQuart');
+		}, 500, 'easeInQuart');
 	});
 
 	/*----------- Get started button -----------*/
 	$('.get-started').click(function(e) {
 		e.preventDefault();
-		$target = $('.get-started');
+		$target = $('section.get-started');
 		$padding = $($target).css('padding-top');
 		$padding = $padding.substring(0, $padding.length - 2);
 		$padding = parseInt($padding);
 		$position = $($target).offset().top - $padding;
 		$('html, body').animate({
 			scrollTop: $position
-		}, 1000, 'easeInQuart');
+		}, 500, 'easeInQuart');
 	});
 
 	/*----------- IE Placeholders -----------*/
