@@ -1274,100 +1274,7 @@ section.schedule h2 {
 -------------       Blog         ------------
 -----------------------------------------------------*/
 
-section.blog  {
-	background:#F9F9F9;
-}
 
-section.blog h2 {
-	text-shadow:none;
-}
-
-section.blog #blog-filters li a {
-	display:block;
-	padding:4px 8px;
-	margin-right:10px;
-	font-size:16px;
-	background:#FFF;
-}
-
-section.blog .blog-controls {
-	margin-bottom:30px;
-}
-
-article.blog-item {
-	border:1px solid #DDD;
-	box-shadow:1px 1px 3px rgba(0,0,0,0.1);
-	margin:0 0 20px 0;
-}
-
-article.blog-item .content {
-	padding:10px;
-	box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-webkit-box-sizing:border-box;
-	background:#FFF;
-}
-
-article.blog-item h4 {
-	margin:0 0 5px;
-}
-
-article.blog-item .meta p {
-	margin:0 0 10px;
-	font-size:12px;
-}
-
-article.blog-item .meta span.date,
-article.blog-item .meta a {
-	color:#44606E;
-}
-
-/* Single */
-
-section.blog-single {
-	display:none;
-	padding-top:100px;
-	background:#EFEFEF;
-}
-
-section.blog-single h2 {
-	text-shadow:none;
-}
-
-section.blog-single .blog-back {
-	position:absolute;
-	top:0;
-	left:48%;
-	background:#44606E;
-	padding:10px 25px;
-	display:none;
-	color:#FFF;
-	cursor:pointer;
-}
-
-section.blog-single .blog-next,
-section.blog-single .blog-prev {
-	background:#44606E;
-	color:#FFF;
-	font-size:14px;
-	padding:3px 8px;
-	display:inline-block;
-	position:relative;
-	top:10px;
-	cursor:pointer;
-}
-
-section.blog-single .blog-next {
-	float:right;
-}
-
-section.blog-single .blog-next i {
-	margin:0 0 0 5px;
-}
-
-section.blog-single .blog-prev {
-	float:left;
-}
 article.post .image,
 article.post .video {
 	margin-bottom:20px;
@@ -1740,6 +1647,44 @@ span {
     display:block;
     color:#8c8c8c;
     font-size:80%;
+}
+
+/* blog listing */
+.blogList {
+padding: 0;
+}
+.blogList ul {
+margin: 0 !important;
+padding: 0 !important;
+list-style: none;
+list-style-image: none;
+}
+.blogList ul li {
+list-style: none;
+list-style-image: none;
+margin: 0 !important;
+padding: 0 0 5px !important;
+}
+.blogList ul li h2.postTitle {
+font-size: 25px;
+font-family: georgia, serif;
+line-height: 1;
+margin: 0 0 5px;
+font-weight: normal;
+}
+.blogList ul li h2.postTitle a {
+color: #000;
+text-decoration: none;
+}
+.blogList ul li .postBody {
+font-size: 12px;
+}
+.blogList ul li .postInfo {
+margin: 0 0 15px;
+color: #777;
+}
+.blogList ul li .postInfo span.postDate {
+color: #777;
 }
 
 
